@@ -1,0 +1,81 @@
+.Login-sec {
+  display: flex;
+  justify-content: space-between;
+  height: 93vh;
+  background: url("../../assets/endless-constellation.png");
+  background-size: 40%;
+  background-repeat: repeat;
+}
+
+.login-image {
+  width: 500px;
+  /* height: 500px; */
+}
+
+.login-info {
+  /* padding: 12vh 2rem 0 2rem; */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  color: black;
+  border-right: 4px solid var(--primary-light);
+}
+
+.login-info image {
+  border: 2px solid black;
+}
+
+.login-form ul li button {
+  color: black !important;
+}
+
+.login-form {
+  margin: auto;
+  height: fit-content;
+  width: 40vw;
+  color: black;
+  padding-inline: 3rem;
+  padding-block: 2rem;
+  border-radius: 25px;
+  border: 2px solid var(--primary);
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+
+  .nav-link {
+    color: black !important;
+  }
+
+  .nav-link:hover {
+    color: var(--primary) !important;
+  }
+}
+
+.nav-link.active {
+  border: 2px solid var(--primary) !important;
+  border-bottom: 2px solid rgba(211, 211, 211, 0.212) !important;
+}
+
+.nav-link:not(.active) {
+  border: 2px solid rgba(211, 211, 211, 0.212) !important;
+  border-bottom: 2px solid var(--primary) !important;
+}
+@media (width < 1200px) {
+  .Login-sec {
+    height: auto;
+    flex-direction: column;
+    gap: 10px;
+    padding-block: 2rem;
+  }
+  .login-form {
+    width: 70%;
+    margin: auto;
+    height: auto;
+    padding-bottom: 2rem;
+  }
+  .login-info {
+    display: none;
+  }
+}

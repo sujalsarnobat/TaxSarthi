@@ -1,0 +1,68 @@
+.accordion {
+  border: 2px solid var(--tertiary-light);
+  border-radius: 8px;
+  padding: 10px;
+  background-color: rgb(230, 230, 230) !important;
+  margin-bottom: 2rem;
+}
+
+.iconDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  .HeaderMainDiv {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+.accordionSubHeader {
+  margin: 0;
+}
+
+.AccordionMainHeading {
+  font-family: "Lora", serif !important;
+  font-size: 1.5rem !important;
+  font-weight: 900;
+  color: black;
+  margin-bottom: 0;
+}
+
+.accordion-button:focus {
+  background-color: rgb(230, 230, 230) !important;
+
+  border-color: none !important;
+  box-shadow: none !important;
+}
+.accordion-button {
+  background-color: rgb(230, 230, 230) !important;
+
+  padding: 10px 20px !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: white !important;
+}
+
+.form_feedback_button {
+  padding: 0 30px;
+  width: auto;
+  height: 50px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.15rem;
+  border: 2px solid var(--tertiary);
+  background-color: var(--primary-lighter);
+  color: black;
+  transition: background-color 0.2s ease-in-out;
+  outline: 0;
+  position: fixed;
+  bottom: 20%;
+  right: -55px;
+  /* Adjust the positioning as needed */
+  transform: translateY(-50%) rotate(-90deg);
+  transform-origin: center;
+}

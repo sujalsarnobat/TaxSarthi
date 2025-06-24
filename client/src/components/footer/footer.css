@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Noto+Sans+Mono:wght@500&family=Ubuntu:wght@300;400;500&display=swap");
+@import url("../../variables.css");
+
+.footer {
+  height: fit-content;
+  background-color: #242424;
+  color: white;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 60%;
+  padding: 20px 15px;
+  margin: 0 5%;
+  line-height: 4rem; /* for reponse on phone*/
+}
+
+.footer-title {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.footer-icons {
+  display: flex;
+  align-items: center;
+  line-height: normal;
+  gap: 18px;
+}
+
+.footer-icons a {
+  filter: grayscale(1) invert(0.25);
+}
+
+.footer-icons a:hover {
+  filter: grayscale(0) invert(0);
+}
+
+.footer-icons img {
+  padding: 0.1rem;
+  height: 30px;
+  width: 32px;
+}
+
+.footer-info {
+  /* background-color: black; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  line-height: 2rem;
+  padding: 0 20px;
+}
+
+.footer-desc {
+  font-size: 1.05rem;
+  font-style: italic;
+  /* text-align: justify; */
+  font-weight: 200;
+  flex-grow: 2;
+  width: 22%;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-evenly;
+  width: 75%;
+  gap: 2rem;
+}
+
+.footer-section-title {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.footer-resources ul,
+.footer-company ul {
+  list-style: none;
+  font-weight: 500;
+  display: inline;
+}
+
+.footer-resources ul li a,
+.footer-company ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.newsletter {
+  padding: 2% 0;
+  width: 100%;
+  /* background-color: black; */
+  text-align: center;
+}
+
+.footer-input {
+  /* background-color: cyan; */
+  width: fit-content;
+  margin: 0 auto;
+  padding: 1% 2%;
+  height: fit-content;
+}
+
+.footer-input input {
+  min-width: 320px;
+  width: 30%;
+  height: 45px;
+  padding: 1rem;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  font-size: medium;
+  font-weight: 500;
+  color: #242424;
+}
+
+/* .footer-input input:focus {
+  outline: 2px solid white;
+} */
+
+.footer-input input:focus ~ .footer-input button {
+  height: 54px;
+}
+
+.footer-input button {
+  color: white;
+  background-color: var(--primary);
+  height: 45px;
+  padding: 10px;
+  font-weight: 500;
+  font-size: medium;
+  font-family: "Montserrat", sans-serif;
+  border: 1px solid var(--primary);
+  transition: all 0.2s ease-in-out;
+}
+
+.footer-input button:hover {
+  box-sizing: border-box;
+  background: #242424;
+  border: 1px solid white;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.footer-bottom {
+  display: flex;
+  font-size: 0.85rem;
+  padding: 5px 1.5%;
+  justify-content: center;
+  gap: 5rem;
+  border-top: 2px solid white;
+  flex-wrap: wrap;
+}
+
+.footer-bottom-left,
+.footer-bottom-right {
+  padding: 0 2px;
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+  .footer-info {
+    flex-wrap: wrap !important;
+  }
+  .footer-desc {
+    width: 100% !important;
+    text-align: center;
+  }
+}

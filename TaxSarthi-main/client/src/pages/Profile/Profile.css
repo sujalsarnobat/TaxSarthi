@@ -1,0 +1,30 @@
+.profile_personal_form{
+    align-items: center !important;
+    margin: 2rem 8rem;
+    padding: 16px;
+}
+
+.icon_username_profile{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3;
+}
+
+.profile_name_row{
+
+}
+
+.profile_info_submit{
+    margin-top: 1rem;
+    padding: 0 30px;
+    width: auto;
+    height: 50px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 1.15rem;
+    background-color: rgb(54, 255, 88);
+    background-color: var(--primary-dark);
+    color: black;
+    transition: background-color 0.2s ease-in-out;
+}

@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Lora&family=Montserrat:wght@700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  --primary: #3d5a80;
+  --primary-light: #98c1d9;
+  --primary-lighter: #e0fbfc;
+  --secondary: #ee6c4d;
+  --secondary-light: #eb8d75;
+  --tertiary: #293241;
+  --tertiary-light: #555f72;
+
+  --green-light: #98c1d9;
+  --green-primary: #3d5a80;
+  --green-dark: #e0fbfc;
+  --blue-primary: #ee6c4d;
+  --blue-dark: #293241;
+}
+
+/* font-family: 'Hind Madurai',
+sans-serif;
+font-family: 'Lora',
+serif;
+font-family: 'Montserrat', sans-serif; */
+
+/* Max headin- 3rem
+secondary heading - 1.85rem
+text - 1.14rem */
+
+/* 
+LEGACY COLORS
+  --primary: #d0efb1;
+  --primary-dark: #b3d89c;
+  --secondary: #9dc3c2;
+  --secondary-accent1: #77a6b6;
+  --secondary-accent2: #4d7298;
+*/

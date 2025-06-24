@@ -1,0 +1,283 @@
+@import url("../../variables.css");
+
+#home {
+  display: flex;
+  color: #242424;
+  min-height: 75vh;
+  font-family: "Montserrat", sans-serif;
+}
+.welcome-content {
+  min-width: 50vw;
+  width: auto;
+  background: white;
+  padding: 45px;
+}
+
+.welcome-heading {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.welcome-description {
+  font-size: 1.1rem;
+  color: var(--tertiary-light);
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.welcome-image {
+  max-height: 80vh;
+  overflow: hidden;
+}
+
+/* .welcome-image img {
+  height: 100%;
+} */
+
+@media screen and (max-width: 768px) {
+  .welcome-image {
+    display: none;
+  }
+}
+
+.steps {
+  /* display: block; */
+  position: relative;
+  padding: 30px 0;
+}
+
+.step {
+  display: flex;
+  gap: 1rem;
+  padding: 17px 0;
+}
+
+.step-content {
+  display: block;
+}
+
+.step-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.step-description {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--tertiary-light);
+}
+.step-count {
+  width: 40px;
+  height: 40px;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  text-align: center;
+  padding: 7px 0;
+  background-color: white;
+  /* border: 2px solid rgba(122, 122, 122, 0.562); */
+  border: 2px solid var(--primary);
+  color: rgb(46, 46, 46);
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+}
+
+.get-started {
+  padding: 0 30px;
+  width: auto;
+  height: 50px;
+  border-radius: 30px;
+  border: 2px solid var(--tertiary-light);
+  font-weight: 600;
+  font-size: 1.15rem;
+  background-color: rgb(54, 255, 88);
+  background-color: var(--primary);
+  color: white;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.get-started:hover {
+  background-color: var(--primary-lighter);
+  color: black;
+  border-color: var(--tertiary);
+}
+
+.vr {
+  position: absolute;
+  height: 60%;
+  background: white;
+  border: 2px dashed white;
+  left: 18px;
+  top: 55px;
+  z-index: 0;
+}
+
+.home-div {
+  margin: 2rem 5rem;
+}
+
+#home-tutorial {
+  display: block;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+}
+
+.home-tutorial-text {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.home-tutorial-embed {
+  aspect-ratio: 16 / 9;
+  border: 2px solid var(--tertiary-light);
+  width: 50vw;
+}
+
+#home-stats {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.stats-title {
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.main-stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.stats-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.stats-heading {
+  font-size: 2rem;
+}
+
+.stats-amount {
+  font-size: 3rem;
+  font-weight: 600;
+  text-shadow: 2px 2px 1px var(--tertiary-light);
+  color: var(--primary);
+  transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+
+/* @media (300px <= width <= 500px) {
+  .stats-heading {
+    font-size: 1rem;
+  }
+  .stats-title {
+    font-weight: 500;
+    font-size: 2rem;
+  }
+  .stats-amount {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+} */
+
+.stats-group:hover > .stats-amount {
+  color: var(--green-light);
+  text-shadow: 4px 4px 1px var(--blue-dark);
+  cursor: default;
+}
+
+#carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.faq {
+  margin: 2rem 5rem;
+}
+
+@media (300px <= width <= 500px) {
+  .home-div {
+    margin: 0rem 2rem;
+  }
+  .faq {
+    margin: 1rem 0.5rem;
+  }
+}
+
+#queries {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-family: "Montserrat", sans-serif;
+  padding: 0 0 20px 0;
+}
+
+.query-title {
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.query-box {
+  width: 70vw;
+  border: 2px solid rgba(128, 128, 128, 0.349);
+  padding: 20px 30px;
+  border-radius: 15px;
+}
+
+.form-field-title {
+  font-size: 1.2rem;
+}
+
+#blog-suggestions {
+  /* background: cyan; */
+  padding-block: 1rem;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.blog-suggestions-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.cards-container {
+  width: 90%;
+  /* background-color: whitesmoke; */
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  align-items: center;
+  height: 275px;
+}
+
+@media screen and (max-width: 700px) {
+  .main-stats {
+    flex-direction: column;
+    gap: 2px;
+  }
+  .home-tutorial-embed {
+    width: 100%;
+  }
+  .query-box {
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .cards-container {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+}

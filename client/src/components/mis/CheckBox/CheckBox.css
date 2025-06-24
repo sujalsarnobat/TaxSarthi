@@ -1,0 +1,9 @@
+.checkbox-wrapper label span {
+  padding-inline: 1rem;
+  text-wrap: nowrap;
+}
+
+.checkbox {
+  transform: scale(1.25);
+  accent-color: var(--primary);
+}

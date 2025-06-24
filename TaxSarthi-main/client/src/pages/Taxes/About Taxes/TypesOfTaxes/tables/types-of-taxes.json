@@ -1,0 +1,86 @@
+[   
+    {
+        "id" : 0,
+        "type" : "Tax Type",
+        "description": "Description",
+        "keyFeatures": "Key Features"
+    },
+    {
+        "id": 1,
+        "type": "Income Tax",
+        "description": "A direct tax on individuals, HUFs, partnerships, and corporations, governed by the Income Tax Act, 1961.",
+        "keyFeatures": "Types: Individual, Corporate, Progressive. Filing and Compliance: Taxpayers file annual returns based on income and applicable slabs."
+    },
+    {
+        "id": 2,
+        "type": "Goods and Services Tax",
+        "description": "An indirect tax replacing multiple central and state taxes, unifying the tax system for goods and services in India.",
+        "keyFeatures": "Types: GST Slabs (5%, 12%, 18%, 28%), Input Tax Credit (ITC), Compliance."
+    },
+    {
+        "id": 3,
+        "type": "Corporate Tax",
+        "description": "Levied on profits earned by companies in India, with rates varying based on company size and type.",
+        "keyFeatures": "Rate variations, Minimum Alternate Tax (MAT) for certain companies."
+    },
+    {
+        "id": 4,
+        "type": "Customs Duty",
+        "description": "Indirect tax on import and export of goods and services, regulating trade, protecting domestic industries, and generating revenue.",
+        "keyFeatures": "Types: Basic Customs Duty, Additional Customs Duty (CVD), Special Additional Customs Duty (SAD)."
+    },
+    {
+        "id": 5,
+        "type": "Excise Duty",
+        "description": "Indirect tax on manufacturing or production of goods within India, now mostly replaced by GST.",
+        "keyFeatures": "Included in product price, relevance reduced with GST implementation."
+    },
+    {
+        "id": 6,
+        "type": "Service Tax",
+        "description": "Indirect tax on specified services, replaced by GST in 2017.",
+        "keyFeatures": "Replaced by GST as the primary tax on services."
+    },
+    {
+        "id": 7,
+        "type": "Property Tax",
+        "description": "Municipal tax levied on property owners for the maintenance of local civic amenities.",
+        "keyFeatures": "Supports municipal infrastructure and services."
+    },
+    {
+        "id": 8,
+        "type": "Wealth Tax",
+        "description": "Direct tax on an individual's net wealth, abolished in 2015 due to administrative complexities.",
+        "keyFeatures": "Abolished due to administrative challenges and limited revenue impact."
+    },
+    {
+        "id": 9,
+        "type": "Capital Gains Tax",
+        "description": "Levied on profit from the sale of assets like property and investments.",
+        "keyFeatures": "Types: Short-term and long-term gains based on asset holding period."
+    },
+    {
+        "id": 10,
+        "type": "Securities Transaction Tax",
+        "description": "Tax on the purchase and sale of securities to regulate and discourage speculative trading in the stock market.",
+        "keyFeatures": "Aims to control excessive speculation in the securities market."
+    },
+    {
+        "id": 11,
+        "type": "State VAT (Value Added Tax)",
+        "description": "Pre-GST, states imposed VAT on goods within their jurisdiction.",
+        "keyFeatures": "Rates varied by state and were levied at different stages of the supply chain."
+    },
+    {
+        "id": 12,
+        "type": "Road Tax",
+        "description": "Levied by state governments on motor vehicles during registration, funding road infrastructure.",
+        "keyFeatures": "Revenue used for development and maintenance of roads."
+    },
+    {
+        "id": 13,
+        "type": "Professional Tax",
+        "description": "Levied by state governments on individuals earning income through a profession, trade, or employment.",
+        "keyFeatures": "Rates vary by state, deducted by employers from employees' salaries."
+    }
+]

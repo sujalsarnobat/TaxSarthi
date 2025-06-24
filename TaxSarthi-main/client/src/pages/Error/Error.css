@@ -1,0 +1,66 @@
+.error{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 5rem;
+}
+
+.Img{
+    width: 35rem;
+    padding: 2rem 4rem;
+}
+
+.error-text{
+    text-align: center;
+    padding: 2rem 8rem;
+
+    .error-text-p{
+        text-align: center;
+            font-size: 1.85rem;
+            font-weight: 300;
+            font-family: 'Hind Madurai',
+                sans-serif;
+
+                .error-text-span {
+                        text-align: center;
+                        font-size: 3rem;
+                        font-weight: 700;
+                        font-family: 'Montserrat',
+                            sans-serif;
+                    }
+    }
+}
+
+.error-home{
+    padding: 0 30px;
+    width: auto;
+    height: 50px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 1.15rem;
+    background-color: rgb(54, 255, 88);
+    background-color: var(--primary-dark);
+    color: black;
+    transition: background-color 0.2s ease-in-out;
+}
+
+@media(300px <= width <= 600px){
+    .error{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+        margin: 1rem 1.5rem;
+    }
+
+        .Img {
+            width: 25rem;
+            padding: 2rem 2rem;
+        }
+
+    .error-text{
+        padding: 2rem 1rem;
+    }
+}
+

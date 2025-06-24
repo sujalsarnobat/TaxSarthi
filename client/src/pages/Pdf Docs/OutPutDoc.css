@@ -1,0 +1,263 @@
+.Button-Doc-Group{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px 2rem;
+}
+
+.buttons-group{
+    padding: 0 30px;
+        width: auto;
+        height: 50px;
+        border-radius: 30px;
+        font-weight: 600;
+        font-size: 1.15rem;
+        background-color: rgb(54, 255, 88);
+        background-color: var(--primary-dark);
+        color: black;
+        transition: background-color 0.2s ease-in-out;
+}
+
+
+#OutPutSec{
+    padding: 0 2rem;
+
+    h3{
+        margin: 2rem;
+        text-align: center;
+    }
+}
+
+.invoice-1 {
+    padding: 2rem 0;
+    margin-bottom: 30px;
+}
+.invoice-1 .invoice-info {
+    position: relative;
+}
+.invoice-1 .invoice-headar {
+    height: 125px;
+    margin-bottom: 25px;
+    background: #f3f3f3;
+}
+.invoice_heading{
+text-align: center;
+}
+.logo{
+    padding: 20px;
+}
+.invoice_heading h1{
+    font-size: 3rem !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+.invoice-1 .invoice-headar p span {
+    float: right;
+}
+.invoice-1 .invoice-number-inner {
+    max-width: 200px;
+    margin-left: auto;
+}
+.invoice-1 .invoice-id .info {
+    color: white;
+    max-width: 200px;
+    margin: auto;
+    padding: 25px 0;
+}
+.invoice-1 .invoice-id {
+    border-radius: 75px 0 0 75px;
+    z-index: 0;
+    background-image: linear-gradient(to bottom, #b3d89c, #4d7298);
+}
+
+
+
+
+.headingName{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.MainInfoDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 2rem;
+    
+    /* .EmployerInfo{
+        padding-right: 3rem;
+    } */
+
+    .inv-title-1{
+        color: #4d7298;
+            margin-bottom: 5px;
+    }
+
+    strong{
+        font-size: 15px;
+        color: rgb(131, 124, 124);
+    }
+
+    .name{
+        color: rgb(33, 32, 32);
+    }
+}
+
+
+
+.tr-row {
+    display: table;
+    width: 100%;
+    padding: 10px 10px;
+    border-collapse: collapse;
+
+    td{
+        display: table-cell;
+            vertical-align: inherit;
+    }
+    }
+.tr-row tr:nth-child(even) {
+    background-color: #cec9c9;
+    /* Alternate row color */
+}
+
+
+
+.td-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    /* Adjust the value as needed */
+}
+
+.TaxTable{
+    width: 100%;
+    border-collapse: separate;
+    text-indent: initial;
+        line-height: normal;
+        font-weight: normal;
+        font-size: medium;
+        font-style: normal;
+        text-align: start;
+        border-spacing: 2px;
+        white-space: normal;
+        font-variant: normal;
+        margin: 2rem 0;
+
+    .taxBody{
+        display: table-row-group;
+            vertical-align: middle;
+            border-color: inherit;
+
+            tr{
+                display: table-row;
+                    vertical-align: inherit;
+                    border-color: inherit;
+
+                    td{
+                        display: table-cell;
+                            vertical-align: inherit;
+                    }
+            }
+    }
+}
+
+
+
+
+.NormalTaxSlab{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+
+tbody,
+    td,
+    tfoot,
+    th,
+    thead,
+    tr{
+        border-width: 1px !important;
+    }
+}
+
+
+/* Footer section styles */
+.invoice-footer {
+    position: relative;
+}
+
+/* Terms & Conditions and Payment Method styles */
+.invoice-footer .invoice-bottom {
+    padding: 0 50px 10px;
+}
+
+.invoice-footer .bg-active {
+    background: #f3f3f3 !important;
+    color: #535353 !important;
+}
+
+.invoice-footer .inv-title-1  {
+    margin: 0 !important;
+    margin-bottom: 7px !important;
+    text-align: start !important;
+}
+
+.invoice-footer .payment-method {
+    max-width: 100%;
+    /* Adjust the width as needed */
+}
+
+.invoice-footer .contact-info {
+    padding: 30px 50px;
+    border-radius: 0 40px 40px 0;
+    background-image: linear-gradient(to bottom, #f3f3f3, #ffffff);
+}
+
+.invoice-footer .contact-info a {
+    margin-right: 20px;
+    color: #535353;
+    font-size: 14px;
+}
+
+.invoice-footer .contact-info .mr-0 {
+    margin-right: 0;
+}
+
+.invoice-footer .inv-header-1 {
+    font-weight: 600;
+}
+
+/* After pseudo-element for gradient background */
+.invoice-footer::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30%;
+    height: 30px;
+    padding-bottom: 5px;
+    border-radius: 15px 0 0 15px;
+    z-index: 0;
+    background-image: linear-gradient(to bottom, #b3d89c, #4d7298);
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+    .Button-Doc-Group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 1rem;
+        margin: 10px 2rem;
+    }
+
+    .contact-info{
+        padding: 0 0 30px 0;
+        font-size: small;
+    }
+
+
+}

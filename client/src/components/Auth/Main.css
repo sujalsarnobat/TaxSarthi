@@ -1,0 +1,50 @@
+.login-button {
+  padding: 0 30px;
+  width: auto;
+  height: 50px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 1.15rem;
+  background-color: var(--primary);
+  border: 2px solid var(--primary-lighter);
+  color: white;
+  text-wrap: nowrap;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.login-button:hover {
+  background-color: var(--primary-lighter);
+  color: black;
+  border-color: var(--tertiary);
+}
+
+.login-input {
+  z-index: 0;
+  width: 100%;
+  padding: 11px;
+  border-radius: 10px;
+  border: solid 1px black;
+  font-size: 1.05rem;
+}
+
+.login-input:active {
+  border: solid 0.5px grey;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 0.5rem;
+}
+
+.password-toggle {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* @media (350px<=width <=500px) {
+  .login-button {
+    width: 35%;
+  }
+} */

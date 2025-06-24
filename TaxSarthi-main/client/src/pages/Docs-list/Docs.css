@@ -1,0 +1,107 @@
+.docs-list {
+  font-family: "Noto Sans", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+
+  .vstack {
+    margin: auto auto;
+    flex: 0 auto;
+    padding: 5rem;
+    height: fit-content;
+  }
+
+  .button {
+    width: fit-content;
+    padding: 4px;
+    border: solid 1px black;
+    border-radius: 8px;
+  }
+}
+
+.Docs-Login {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .Docs-Login-p {
+    text-align: center;
+    font-size: 1.85rem;
+    font-weight: 300;
+    font-family: "Hind Madurai", sans-serif;
+  }
+  .Docs-Login-button {
+    padding: 0 30px;
+    width: auto;
+    height: 50px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 1.15rem;
+    background-color: rgb(54, 255, 88);
+    background-color: var(--primary-dark);
+    color: black;
+    transition: background-color 0.2s ease-in-out;
+  }
+}
+
+.documents-required {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  border: 2px solid var(--primary);
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+.documents-required .checkbox-wrapper {
+  flex-basis: 40%;
+  font-size: 1.2rem;
+  padding: 0.7rem;
+}
+
+.button-wrapper {
+  text-align: right;
+  padding: 1rem;
+}
+
+.button-next {
+  width: 5rem;
+  height: 2.5rem;
+  border-radius: 25px;
+  color: white;
+  border: 2px solid var(--primary-lighter);
+  background: var(--primary);
+}
+
+.button-next:hover {
+  background: var(--primary-lighter);
+  color: var(--tertiary);
+  border-color: var(--tertiary);
+}
+
+@media (320px <= width <= 500px) {
+  .docs-list {
+    height: auto;
+    margin: auto;
+
+    .vstack {
+      margin: auto;
+      padding: 2rem;
+      position: relative;
+    }
+  }
+  .profile {
+    position: absolute;
+    right: 0;
+    left: auto;
+    float: right;
+  }
+
+  .Docs-Login {
+    padding: 2rem 3.2rem;
+  }
+}

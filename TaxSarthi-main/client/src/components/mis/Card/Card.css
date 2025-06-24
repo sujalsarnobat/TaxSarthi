@@ -1,0 +1,26 @@
+.card {
+  width: 18rem;
+  box-shadow: 0 4px 8px var(--green-light);
+  border-radius: 20px;
+  height: 100% !important;
+  border: 2px solid var(--green-light);
+}
+
+.card-button {
+  padding: 0 30px;
+  width: auto;
+  height: 50px;
+  border-radius: 30px;
+  border: 2px solid var(--green-dark);
+  font-weight: 600;
+  font-size: 1.15rem;
+  background-color: var(--green-primary);
+  color: white;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.card-button:hover {
+  background-color: var(--green-dark);
+  color: black;
+  border-color: var(--blue-dark);
+}

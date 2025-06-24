@@ -1,0 +1,58 @@
+.carouselContainer {
+    display: flex;
+    /* Use flex display to create a horizontal layout */
+    justify-content: space-between;
+    /* Space evenly between items */
+    overflow-x: auto;
+    /* Enable horizontal scrolling if needed */
+}
+
+.testimonialContainer {
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px -6px black;
+    margin: 10px;
+}
+
+.testimonialHeader {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.testimonialBody {
+    text-align: justify;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.iconContainer {
+    width: 30px;
+    justify-self: end;
+    margin-left: auto;
+}
+
+.icon {
+    fill: rgb(25, 118, 210);
+}
+
+.nameContainer {
+    margin-left: 10px;
+    text-align: left;
+}
+
+.testimonialBodyText {
+    font-size: 1rem;
+}
+
+p {
+    margin: 0.2rem;
+    font-size: 0.9rem;
+}
+
+h4 {
+    margin: 0;
+}

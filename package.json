@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "It is the backend for our Taxsaarthi project",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "npm-run-all --parallel start-frontend start-backend",
+  "start-backend": "cd Backend && nodemon index.js",
+  "start-frontend": "cd client && npm start",
+  "start-backend-node":"cd Backend && node index.js"
+  },
+  "author": "Gautam,Chinmay.Yash.Harsh",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.5.2",
+    "npm-run-all": "^4.1.5"
+  }
+}
